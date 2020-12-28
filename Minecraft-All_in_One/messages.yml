@@ -1,0 +1,41 @@
+####
+## Configuración de todos los Mensajes
+####
+# En este archivo vas a encontrar todos los mensajes que ofrece este plugin,
+# aunque para que se muestren deberás primero activar el modulo pertinente
+# sino de ninguna manera se va a mostrar dicho mensaje.
+
+####
+## Posibles variables
+####
+# %player%  => Muestra el nombre del jugador. (Posible en todos los mensajes)
+# %world%  => Muestra el nombre del Mundo. (Posible en los mensajes de "teleport")
+
+####
+## Variables de los Presets
+####
+# %network-name%  => Muestra el nombre del jugador.
+# %server-name%  => Muestra el nombre del jugador.
+# %web-link%  => Muestra el nombre del jugador.
+# %twitter-link%  => Muestra el nombre del jugador.
+# %facebook-link%  => Muestra el nombre del jugador.
+presets:
+  network-name: "AIO-Network"
+  server-name: "AIO-Server"
+  web-link: "https://plugins.jsalmoralp.es/minecraft/allinone"
+  twitter-link: "https://twitter.com/jsalmoralp"
+  facebook-link: "https://www.facebook.com/jsalmoralp"
+####
+## Mensajes
+####
+events:
+  playerJoin:
+    message:
+    - "&m                              "
+    - "Bienvenido al Servidor %player%."
+    - "<Web de donaciones>"
+    - "<Twitter> <Facebook> <...>"
+    - "&m                              "
+    - "Crea tantas líneas como quieras !!"
+    teleport: "%player% vas a ser teleportado al mundo %world%."
+    

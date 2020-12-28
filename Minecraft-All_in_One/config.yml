@@ -1,0 +1,37 @@
+####
+## Funcionalidades que ofrece el plugin
+####
+# En este archivo podrás Activar o Desactivar ciertas funcionalidades
+# que ofrece este plugin, para poder personalizar que quieres o no
+# que este plugin haga por ti.
+##
+# Los valores "true" y "false" son aceptados por todos los parámetros,
+# y los parámetros "general", también aceptan el valor "all".
+# Si quieres que se active todo un grupo de parámetros, puedes usar
+# el valor "all" en los parámetros "general", para que se active toda
+# la descendencia de parámetros, que ha su vez son funcionalidades.
+# Y si solo quieres activar una parte de las funcionalidades, en el
+# parámetro o parámetros "general" pertinentes debes colocar el valor
+# "true", o simplemente dejarlo en blanco.
+# En cambio, si quieres desactivar todo un grupo de funcionalidades,
+# en el parámetro "general" que englobe esas funcionalidades, deberás
+# colocar el valor "false".
+##
+modules:
+  general: all
+  hub: true
+  spawn: true
+  reports: true
+  conteo-survival: true
+  streams: true
+events:
+  playerJoin:
+    general: all
+    message: true
+    teleport: true
+  conteo-survival:
+    general: all
+    kills:
+      general: all
+      zombies: true
+    
