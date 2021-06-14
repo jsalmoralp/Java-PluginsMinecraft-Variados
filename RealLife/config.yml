@@ -1,0 +1,8 @@
+Config:
+    lang: "es"
+Modules:
+    commands:
+        realLife: true
+    events:
+        KillsForScoreboard: true
+        KillsWithReward: true

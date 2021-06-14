@@ -1,0 +1,7 @@
+main: es.jsalmoralp.reallife.Main
+version: 1.0.3
+name: RealLife
+
+commands:
+  realLife:
+    description: El comando /realLife del Plugin REALLIFE.
