@@ -1,0 +1,7 @@
+Config:
+    lang: "es"
+Modules:
+    commands:
+        troll: true
+    features:
+        IventoryGUI: true

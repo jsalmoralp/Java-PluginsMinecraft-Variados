@@ -1,0 +1,14 @@
+ConfigurableMessages:
+    playersInventoryName: "&7[&aTrollGUI&7]"
+    trollsInventoryName: "&7[&aTrollGUI&7] &e%player%"
+    trollsInventory:
+        trollCreeper:
+            itemName: "&7Troll &2Creepers"
+            itemLore:
+            - "&7Spawnea 4 creepers alrededor del jugador"
+            - "&7para darle un buen susto."
+        trollVoid:
+            itemName: "&7Troll &2Vacio"
+            itemLore:
+            - "&7Teletransporta a la capa -1"
+            - "&7para darle un buen susto."

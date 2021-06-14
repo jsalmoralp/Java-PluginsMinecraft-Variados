@@ -1,0 +1,7 @@
+main: es.jsalmoralp.trollolo.Main
+version: 1.0.1
+name: Trollolo
+
+commands:
+  troll:
+    description: El comando /troll del Plugin TROLLOLO.
