@@ -1,0 +1,30 @@
+Config:
+    lang: "es"
+    configured-world: "world"
+    database-connection:
+# Por el momento solo soporta "mysql"
+        type: "mysql"
+        host: "localhost"
+        port: 3306
+        database: "supremacy"
+        user: "root"
+        password: ""
+Modules:
+    commands:
+        opsupremacy: "true"
+        level: "true"
+    aggregates:
+        KillsForScoreboard: "true"
+        Menu: "true"
+        FramEvents: "true"
+        AutoSpawning:
+            general: "true"
+            types:
+                BasicMobs: "true"
+                MediumMobs: "true"
+                BigMobs: "true"
+                BossMobs: "true"
+    features:
+        PlayersListener: "true"
+    countdowns:
+        OpenMenu: "true"
